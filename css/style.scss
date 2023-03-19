@@ -1,0 +1,29 @@
+
+.sec_space{
+    padding: 2rem 0;
+}
+
+.sec_heading{
+    text-align: center;
+
+    .heading_main{
+        font-weight: calc(2rem + .5vw);
+        color: crimson;
+    }
+}
+
+.text_area-wrap{
+    padding: 1.5rem 0;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
